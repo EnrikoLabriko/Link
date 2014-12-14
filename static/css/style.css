@@ -1,0 +1,7 @@
+.custom_div {
+    visibility: hidden;
+}
+
+input[type='checkbox']#custom:checked ~ .custom_div {
+    visibility: visible;
+}
